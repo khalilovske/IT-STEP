@@ -46,7 +46,7 @@ using namespace std;
 
 
 //------------TASK 3 deposite ---------
-float income(float a, float b, float c) {
+/*float income(float a, float b, float c) {
 	return a + a * b * c / 365 / 100;
 }
 int main()
@@ -62,6 +62,8 @@ int main()
 	system("pause");
 	return 0;
 }
+*/
+
 
 
 
