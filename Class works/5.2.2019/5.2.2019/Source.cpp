@@ -30,7 +30,7 @@ int main()
 -для знаходження середнього арифметичного елементів масиву
 */
 
-#include<iostream>
+/*#include<iostream>
 #include<ctime>
 using namespace std;
 
@@ -77,4 +77,79 @@ void Find(T arr[], const int SIZE) {
 		average += arr[i];
 	}
 	cout << "THE arithmetic average is = " << average / SIZE << endl;
+}
+*/
+
+
+
+//-------------------------TASK 2-------------------------------- 
+/*Написати перевантажені функції й основну програму, що їх викликає
+для масиву який починається на парне число виконує циклічне зрушення вліво на кількість елементів рівному першому елементові масиву.
+для масиву який починається на непарне число виконує циклічне зрушення вправо на кількість елементів рівне останньому елементові масиву.
+*/
+#include<iostream>
+#include<ctime>
+
+using namespace std;
+
+template<typename T>
+void FillArr(T arr[], const int SIZE);
+
+
+template<typename T>
+void Print(T arr[], const int SIZE);
+
+
+template<typename T>
+void FillArr(T arr1[], const int SIZE);
+
+
+template<typename T>
+void Print(T arr1[], const int SIZE);
+
+
+
+
+int main()
+{
+	srand(unsigned(time(NULL)));
+	const int SIZE = 10;
+	int arr[SIZE];
+	int arr1[SIZE];
+
+	FillArr(arr, SIZE);
+	FillArr(arr1, SIZE);
+	Print(arr, SIZE);
+	Print(arr1, SIZE);
+	
+	system("pause");
+	return 0;
+}
+template<typename T>
+void FillArr(T arr[], const int SIZE)
+{
+		int tmp = 0;
+		for (int i = 0; i < SIZE; i++)
+		{
+			tmp = rand() % 30 + -20;
+			if (tmp %2 == 0) {
+				arr[i] = tmp;
+			}
+			else {
+				i--;
+			}
+		}
+}
+
+	
+
+
+template<typename T>
+void Print(T arr1[], const int SIZE) {
+
+	for (int i = 0; i < SIZE; i++)
+	{
+		cout << " arr [ " << i << " ] = " << arr1[i] << endl;
+	}
+	cout << "----------------------------------->" << endl;
 }
