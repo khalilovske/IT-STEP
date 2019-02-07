@@ -1,0 +1,22 @@
+﻿  Source.cpp
+d:\c++\home work\9.2.2019\9.2.2019\source.cpp(70): error C2440: 'initializing': cannot convert from 'T' to 'double'
+          with
+          [
+              T=int [3]
+          ]
+  d:\c++\home work\9.2.2019\9.2.2019\source.cpp(70): note: There is no context in which this conversion is possible
+  d:\c++\home work\9.2.2019\9.2.2019\source.cpp(37): note: see reference to function template instantiation 'void SortBuble<int[3]>(T [],const int,const int)' being compiled
+          with
+          [
+              T=int [3]
+          ]
+d:\c++\home work\9.2.2019\9.2.2019\source.cpp(71): error C3863: array type 'T' is not assignable
+          with
+          [
+              T=int [3]
+          ]
+d:\c++\home work\9.2.2019\9.2.2019\source.cpp(72): error C3863: array type 'T' is not assignable
+          with
+          [
+              T=int [3]
+          ]
