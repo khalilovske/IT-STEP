@@ -1,0 +1,22 @@
+﻿  Source.cpp
+c:\users\khalil\desktop\c++\class works\7.2.2019\7.2.2019\source.cpp(149): error C2440: '=': cannot convert from 'T' to 'int'
+          with
+          [
+              T=int [3]
+          ]
+  c:\users\khalil\desktop\c++\class works\7.2.2019\7.2.2019\source.cpp(149): note: There is no context in which this conversion is possible
+  c:\users\khalil\desktop\c++\class works\7.2.2019\7.2.2019\source.cpp(115): note: see reference to function template instantiation 'void SortBuble<int[3]>(T [],const int,const int)' being compiled
+          with
+          [
+              T=int [3]
+          ]
+c:\users\khalil\desktop\c++\class works\7.2.2019\7.2.2019\source.cpp(150): error C3863: array type 'T' is not assignable
+          with
+          [
+              T=int [3]
+          ]
+c:\users\khalil\desktop\c++\class works\7.2.2019\7.2.2019\source.cpp(151): error C3863: array type 'T' is not assignable
+          with
+          [
+              T=int [3]
+          ]
