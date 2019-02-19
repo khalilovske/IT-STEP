@@ -1,0 +1,7 @@
+﻿  Source.cpp
+c:\users\khalil\desktop\c++\class works\19.2.2019\19.2.2019\source.cpp(216): error C2109: subscript requires array or pointer type
+  c:\users\khalil\desktop\c++\class works\19.2.2019\19.2.2019\source.cpp(169): note: see reference to function template instantiation 'void SplitArr<int>(T [],T [],T [],const int,const int)' being compiled
+          with
+          [
+              T=int
+          ]
