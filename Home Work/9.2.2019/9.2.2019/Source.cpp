@@ -17,9 +17,11 @@ template<typename T>
 void FillArr(T arr[], const int row, const int line);
 
 template<typename T>
-void SortBuble(T arr[], const int row, const int line);
+void SortLine(T arr[], const int line);
 
 
+template<typename T>
+void SortRow(T arr[], const int row);
 
 
 template<typename T>
@@ -34,7 +36,10 @@ int main()
 
 	FillArr(arr, row, line);
 	Print(arr, row, line);
-	SortBuble(arr, row, line);
+
+	SortLine(arr, line);
+	SortLine(arr, row);
+
 	Print(arr, row, line);
 	system("pause");
 	return 0;
@@ -63,14 +68,27 @@ void Print(T arr[], const int row, const int line) {
 }
 
 template<typename T>
-void SortBuble(T arr[], const int row, const int line) {
-	for (int i = row - 1 ; i >= 1 ; i--) {
-		for (int j = line ; j < i ; j++) {
+void SortLine(T arr[], const int line)
+{
+	for (int i = line ; i >= 1 ; i--) {
+		int j = 0;
 			if (arr[j] > arr[j + 1]) {
-				double tmp = arr[j];
+				int tmp = arr[j];
 				arr[j] = arr[j + 1];
 				arr[j + 1] = tmp;
 			}
+	}
+}
+
+template<typename T>
+void SortRow(T arr[], const int row) {
+	for (int i = row; i >= 1; i--) {
+
+		if (arr[i] > arr[i + 1]) {
+			int tmp = arr[i];
+			arr[i] = arr[i + 1];
+			arr[i + 1] = tmp;
 		}
 	}
+
 }
