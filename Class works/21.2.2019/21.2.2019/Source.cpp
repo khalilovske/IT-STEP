@@ -88,16 +88,82 @@
 /*Створити 3 динамічних змінних різного типу.Заповнити їх деякими значеннями.
 Обчислити і вивести на екран їх добуток, а також самі значення динамічних змінних*/
 
+//#include<iostream>
+//
+//using namespace std;
+//
+//int main()
+//{
+//	int *pInt = new int;
+//	*pInt = 10;
+//	cout << "pInt value = " << *pInt << " pInt address " << pInt << endl;
+//
+//	float *pFloat = new float;
+//	*pFloat = 3.14;
+//	cout << "pFloat value = " << *pFloat << " pFloat address " << pFloat << endl;
+//
+//	double *pDouble = new double;
+//	*pDouble = 8.144345;
+//	cout << "pDouble value = " << *pDouble << " pDouble address " << pDouble << endl;
+//
+//	cout << "Result = " << *pInt * *pFloat * *pDouble << endl;
+//
+//	delete pInt;
+//	delete pFloat;
+//	delete pDouble;
+
+	/*for (int i = 0; i > -1; i++) {      // Code that kills memory 8)  //
+	pointer = new double;
+	}*/
+//    system("pause");
+//	return 0;
+//}
+
+//---------------------------------TASK 3 -------------------------------
+//Знайти якесь число в масиві і повернути вказівник на нього. Вивести індекс цьго елементу (элемкнт вводиться з клавіатури)
+
 #include<iostream>
 #include<ctime>
 using namespace std;
 
+template<typename T>
+void FillArr(T arr[], const int size);
+
+template<typename T>
+void Print(T arr[], const int size);
+
 int main()
 {
 	srand(unsigned(time(NULL)));
-	int 
+	
+	const int size = 5;
+	int arr[size];
+	int value = 0;
+	
 
+	FillArr(arr, size);
+	Print(arr, size);
+	cout << "Enter the value you want : " << endl;
+	cin >> value;
 
-    system("pause");
+	system("pause");
 	return 0;
+}
+
+template<typename T>
+void Print(T arr[], const int size)
+{
+	for (int i = 0; i < size; i++)
+	{
+		cout << " arr [ " << i << " ] = " << arr[i] << endl;
+	}
+	cout << "----------------------------------->" << endl;
+}
+
+template<typename T>
+void FillArr(T arr[], const int size)
+{
+	for (int i = 0; i < size; i++) {
+		arr[i] = rand() % 10 ;
+	}
 }
