@@ -145,9 +145,6 @@ int main()
 
 	FuncMenu(Menu,size,arr);
 
-
-
-
 	delete[] arr;
 
 	system("pause");
