@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\khalil\desktop\c++\class works\14.3.2019\14.3.2019\source.cpp(105): warning C4018: '<': signed/unsigned mismatch
+c:\users\khalil\desktop\c++\class works\14.3.2019\14.3.2019\source.cpp(101): warning C4101: 'Arr': unreferenced local variable
+  14.3.2019.vcxproj -> C:\Users\khalil\Desktop\C++\Class works\14.3.2019\Debug\14.3.2019.exe
