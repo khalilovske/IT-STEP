@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\khalil\desktop\c++\class works\21.3.2019\21.3.2019\source.cpp(31): error C2665: 'ShowInfo': none of the 2 overloads could convert all the argument types
+  c:\users\khalil\desktop\c++\class works\21.3.2019\21.3.2019\source.cpp(14): note: could be 'void ShowInfo(std::string *(__cdecl *)(void))'
+  c:\users\khalil\desktop\c++\class works\21.3.2019\21.3.2019\source.cpp(31): note: while trying to match the argument list '(overloaded-function)'
