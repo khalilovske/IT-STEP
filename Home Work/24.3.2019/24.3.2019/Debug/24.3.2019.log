@@ -1,0 +1,2 @@
+﻿  Source.cpp
+d:\c++\home work\24.3.2019\24.3.2019\source.cpp(29): error C4700: uninitialized local variable 'SIZE' used
