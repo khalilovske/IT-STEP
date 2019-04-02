@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\khalil\desktop\c++\class works\2.4.2019\2.4.2019\source.cpp(102): error C2679: binary '=': no operator found which takes a right-hand operand of type 'int' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\ostream(84): note: could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator =(const std::basic_ostream<char,std::char_traits<char>> &)'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\ostream(70): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator =(std::basic_ostream<char,std::char_traits<char>> &&)'
+  c:\users\khalil\desktop\c++\class works\2.4.2019\2.4.2019\source.cpp(102): note: while trying to match the argument list '(std::basic_ostream<char,std::char_traits<char>>, int)'
