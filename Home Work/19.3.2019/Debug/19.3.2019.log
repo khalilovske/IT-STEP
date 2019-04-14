@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\vova\source\repos\19.3.2019\19.3.2019\source.cpp(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\vova\source\repos\19.3.2019\19.3.2019\source.cpp(33): warning C4018: '<': signed/unsigned mismatch
+  19.3.2019.vcxproj -> C:\Users\vova\source\repos\19.3.2019\Debug\19.3.2019.exe
