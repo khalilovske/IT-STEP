@@ -115,7 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Creat_Library.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="ReadFile.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="WriteFile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Library.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

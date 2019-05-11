@@ -1,2 +1,3 @@
-﻿  Source.cpp
-  26.3.2019.vcxproj -> D:\C++\CourseWork\26.3.2019\x64\Debug\26.3.2019.exe
+﻿  Main.cpp
+WriteFile.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > path" (?path@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) already defined in ReadFile.obj
+D:\C++\CourseWork\26.3.2019\x64\Debug\26.3.2019.exe : fatal error LNK1169: one or more multiply defined symbols found
